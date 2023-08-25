@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CBI_CONFIGURATION>
+<Input> 	        
+	<CardInput>
+		<Card Id = "1"  IP = "192.168.10.2"  Max_Bits = "16">
+			<Details Bit_Position = "1"  Name = "L_P03_04ENPB" 	Type = "Non-Vital"></Details>
+			<Details Bit_Position = "2"  Name = "L_S03E.S01FRQ" Type = "Vital"/>
+			<Details Bit_Position = "3"  Name = "L_S06E.S08FRQ" Type = "Vital"/>
+			<Details Bit_Position = "4"  Name = "L_P03.S09ERQ" 	Type = "Non-Vital"/>								
+		</Card>
+		<Card Id = "2" IP="92.168.1.2" Max_Bits = "32">
+			<Details Bit_Position = "1"  Name = "L_P03_04ENPB" 	Type = "Non-Vital"></Details>
+			<Details Bit_Position = "2"  Name = "L_S03E.S01FRQ" Type = "Vital"/>
+			<Details Bit_Position = "3"  Name = "L_S06E.S08FRQ" Type = "Vital"/>
+			<Details Bit_Position = "4"  Name = "L_P03.S09ERQ" 	Type = "Non-Vital"/>
+			<Details Bit_Position = "5"  Name = "I_S03E.S01YRQ" Type = "Vital"/>
+			<Details Bit_Position = "7"  Name = "L.ON" 			Type = "Vital"/>
+			<Details Bit_Position = "8"  Name = "L_Z03E.S01FRQ" Type = "Non-Vital"/>
+			<Details Bit_Position = "12" Name = "L_T03E.S05FRQ" Type = "Non-Vital"/>			
+		</Card>		
+	</CardInput> 	
+	<ExtSystem>
+		<SubSystemMsg MsgId = "1" SubSystem = "ATS" Periodicity="200"> 
+			<Details Bit_Position = "1" Name = "A03_04AEZR" />  				
+			<Details Bit_Position = "2" Name = "A_E01ZR" />
+			<Details Bit_Position = "3" Name = "A_XJIS" />
+			<Details Bit_Position = "4" Name = "A_ELSE" />
+			<Details Bit_Position = "5" Name = "A_XASDF" />
+			<Details Bit_Position = "8" Name = "A_EWER" />
+			<Details Bit_Position = "10" Name = "A_X234SF" />
+			<Details Bit_Position = "11" Name = "A_D234F.ASDF" />
+			<Details Bit_Position = "13" Name = "A_D234A" />
+			<Details Bit_Position = "14" Name = "A_WASF.ASDF" />
+		</SubSystemMsg>                         
+		<SubSystemMsg MsgId = "2" SubSystem = "VDU" Periodicity="200"> 
+			<Details Bit_Position = "2" Name = "V_E123X" />
+			<Details Bit_Position = "3" Name = "V_ESAA_ADF" />
+			<Details Bit_Position = "4" Name = "V_EADF" />
+			<Details Bit_Position = "5" Name = "V_E03_ASDF" />
+			<Details Bit_Position = "6" Name = "V_E.WY" />
+			<Details Bit_Position = "7" Name = "V_EAGASG" />
+			<Details Bit_Position = "8" Name = "V_ERGT" />
+			<Details Bit_Position = "9" Name = "V_EGDA" />
+		</SubSystemMsg>
+		<SubSystemMsg MsgId = "3" SubSystem = "VDU" Periodicity="200"> 
+			<Details Bit_Position = "1" Name = "V_ESAA_ADF" />
+			<Details Bit_Position = "2" Name = "V_E123X" />
+			<Details Bit_Position = "3" Name = "V_EADF" />
+			<Details Bit_Position = "5" Name = "V_E.WY" />
+			<Details Bit_Position = "6" Name = "V_E03_ASDF" />
+			<Details Bit_Position = "7" Name = "V_ERGT" />
+			<Details Bit_Position = "8" Name = "V_EAGASG" />
+			<Details Bit_Position = "9" Name = "V_EGDA" />
+		</SubSystemMsg>
+		<SubSystemMsg MsgId = "10" SubSystem = "RATC" Periodicity="500"> 
+			<Details Bit_Position = "1"	 Name = "R03_04AEZR" />  				
+			<Details Bit_Position = "2"  Name = "R_E01ZR" />
+			<Details Bit_Position = "3"  Name = "R_XJIS" />
+			<Details Bit_Position = "4"  Name = "R_ELSE" />
+			<Details Bit_Position = "5"  Name = "R_XASDF" />
+			<Details Bit_Position = "8"  Name = "R_EWER" />
+			<Details Bit_Position = "10" Name = "R_X234SF" />
+			<Details Bit_Position = "11" Name = "R_D234F.ASDF" />
+			<Details Bit_Position = "13" Name = "R_D234A" />
+			<Details Bit_Position = "14" Name = "R_WASF.ASDF" />
+		</SubSystemMsg>	
+	</ExtSystem> 	
+</Input>
+</CBI_CONFIGURATION>
