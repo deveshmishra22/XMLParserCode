@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CBI_CONFIGURATION>
+<Input> 	        
+	<CardInput>
+		<Card Id = "1"  IP = "192.168.10.2"  Max_Bits = "16">
+			<Details> Bit_Position = "1"  Name = "L_P03_04ENPB" 	Type = "Non-Vital"</Details>
+			<Details> Bit_Position = "2"  Name = "L_S03E.S01FRQ" Type = "Vital"</Details>
+			<Details> Bit_Position = "3"  Name = "L_S06E.S08FRQ" Type = "Vital"</Details>
+			<Details> Bit_Position = "4"  Name = "L_P03.S09ERQ" 	Type = "Non-Vital"</Details>>								
+		</Card>
+		<Card Id = "2" IP="92.168.1.2" Max_Bits = "32">
+			<Details> Bit_Position = "1"  Name = "L_P03_04ENPB" 	Type = "Non-Vital" </Details>
+			<Details> Bit_Position = "2"  Name = "L_S03E.S01FRQ" Type = "Vital" </Details>
+			<Details> Bit_Position = "3"  Name = "L_S06E.S08FRQ" Type = "Vital"</Details>
+			<Details> Bit_Position = "4"  Name = "L_P03.S09ERQ" 	Type = "Non-Vital"</Details>		
+		</Card>		
+	</CardInput> 	
+</Input>
+</CBI_CONFIGURATION>
